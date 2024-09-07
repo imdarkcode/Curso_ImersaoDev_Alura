@@ -4,48 +4,30 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Cooking Master</title>
+        <title>Prompt Code</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <header>
-            <h1>Cooking Master</h1>
+            <h1>Prompt Code</h1>
         </header>
 
         <main>
             <section>
-                <input type="text" placeholder="Pesquise uma receita...">
-                <button>Pesquisar</button>
+                <input type="text" placeholder="Pesquise uma linguagem...">
+                <button onclick="pesquisar()">Pesquisar</button>
             </section>
 
-            <section class="resultados-pesquisa">
-                <div class="item-resultado">
-                    <h2><a href="#" target="_blank">Pudim</a></h2>
-    
-                    <p class="descricao-meta">O pudim, com sua textura macia e sabor adocicado, é uma sobremesa clássica que encanta paladares de todas as idades. Sua versatilidade permite inúmeras variações, desde o tradicional pudim de leite condensado até receitas mais elaboradas com ingredientes como chocolate, frutas e especiarias.</p>
-    
-                    <a href="#" target="_blank">Verificar receita</a>
-                </div>
-
-                <div class="item-resultado">
-                    <h2><a href="#" target="_blank">Bolo de Chocolate</a></h2>
-                    <p class="descricao-meta">Clássico irresistível, o bolo de chocolate agrada a todos com sua textura macia e sabor intenso. Perfeito para qualquer ocasião, pode ser decorado com diversas coberturas e acompanhamentos.</p>
-                    <a href="#" target="_blank">Verificar receita</a>
-                </div>
-                
-                <div class="item-resultado">
-                    <h2><a href="#" target="_blank">Mousse de Maracujá</a></h2>
-                    <p class="descricao-meta">Leve e refrescante, o mousse de maracujá é uma sobremesa ideal para os dias quentes. Sua acidez equilibra a doçura, proporcionando uma experiência única ao paladar.</p>
-                    <a href="#" target="_blank">Verificar receita</a>
-                </div>
+            <section class="resultados-pesquisa" id="resultados-pesquisa">
             </section>
         </main>
 
         <footer>
-            <p>2024 - Cooking Master. Todos os direitos reservados</p>
+            <p>Todos os direitos reservados © Prompt Code 2024.</p>
         </footer>
 
-        <script src="script.js"></script> 
+        <script src="dados.js"></script> 
+        <script src="app.js"></script> 
     </body>
 </html>
