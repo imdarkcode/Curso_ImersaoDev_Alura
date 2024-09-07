@@ -31,7 +31,7 @@ body {
 
 /* Estiliza os títulos h1 */
 h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; /* Definir fonte */
     font-size: 2.5rem; /* Tamanho da fonte */
     color: #F0F8FF; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
@@ -45,11 +45,13 @@ section {
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
     margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+    color: #F0F8FF; /* Cor do texto */
+    font-family: 'Poppins', sans-serif; /* Definir fonte */
 }
 
 /* Estiliza os inputs dentro das seções */
 section input {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; /* Definir fonte */
     width: 30rem; /* Largura dos inputs */
     border: none; /* Remove a borda padrão */
     padding: 1rem; /* Espaçamento interno */
@@ -64,11 +66,11 @@ section input {
 
 /* Estiliza os botões dentro das seções */
 section button {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; /* Definir fonte */
     padding: 0.8rem 2rem; /* Espaçamento interno do botão */
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
-    background-color: #272727;
+    background-color: #272727; /* Cor do botão */
     color: #F0F8FF; /* Cor do texto do botão */
     font-weight: 300; /* Definir espessura da fonte */
     font-size: 1rem; /* Tamanho da fonte */
